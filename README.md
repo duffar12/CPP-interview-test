@@ -1,6 +1,6 @@
 # CPP-interview-test
 
-Front-office developer test
+Front-office developer practice test
 
 ------------------------------------------------
 
