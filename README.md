@@ -30,11 +30,8 @@ The first argument is the input string and the second is a list of characters co
 * Consider an array containing all unique integers 1 to 100 in random order. If a random array element is set to 0, write a method that determines which number has been removed. You can assume the following method signature :
 
        int GetNumberMissing(int[] array)
-
        {
-
-       // implementation…
-
+           // implementation…
        }
 
 --------------------------------------------------------------------------------------------------------------
@@ -67,11 +64,8 @@ For example:
 The method should return both the subset and the max sum. You can assume the following method signature:
 
     void GetMaxSum(ref int maxSum, List<int> subset)
-
     {
-
         // implementation…
-
     }
 
 The first argument is passed by reference so that the method can write the maximum sum and the second argument is a list of integers which make up the maximum sum.
