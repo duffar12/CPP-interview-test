@@ -16,13 +16,13 @@ In word “implementation”, the most common characters are {‘i’, ‘m’, 
 
 You can assume the following method signature:
 
-void GetMostUsedCharacters(string input, List<char> array)
+    void GetMostUsedCharacters(string input, List<char> array)
 
-{
+    {
 
-// implementation…
+       // implementation…
 
-}
+    }
 
 The first argument is the input string and the second is a list of characters containing the most common ones.
 
@@ -30,13 +30,13 @@ The first argument is the input string and the second is a list of characters co
 
 2) Consider an array containing all unique integers 1 to 100 in random order. If a random array element is set to 0, write a method that determines which number has been removed. You can assume the following method signature :
 
-int GetNumberMissing(int[] array)
+       int GetNumberMissing(int[] array)
 
-{
+       {
 
-// implementation…
+       // implementation…
 
-}
+       }
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ int GetNumberMissing(int[] array)
 
 For example, assume list of pairs,
 
-{(01/01/2016, 03/01/2016), (02/01/2016, 06/01/2016), (07/01/2016, 10/01/2016), (08/01/2016, 16/01/2016)},
+    {(01/01/2016, 03/01/2016), (02/01/2016, 06/01/2016), (07/01/2016, 10/01/2016), (08/01/2016, 16/01/2016)},
 
 then the method should return the following intervals, {(01/01/2016, 06/01/2016), (07/01/2016, 16/01/2016)}.
 
@@ -58,18 +58,18 @@ then the method should return the following intervals, {(01/01/2016, 06/01/2016)
 
 For example:
 
-int A [ ] = {1, - 1, 3, 8 ,4 } the max sum is 1+ 8 = 9;
+    int A [ ] = {1, - 1, 3, 8 ,4 } the max sum is 1+ 8 = 9;
 
-int A [ ] = { 1,2,3,4, 5} the max sum is 1 + 3 + 5 = 9;
+    int A [ ] = { 1,2,3,4, 5} the max sum is 1 + 3 + 5 = 9;
 
 The method should return both the subset and the max sum. You can assume the following method signature:
 
-void GetMaxSum(ref int maxSum, List<int> subset)
+    void GetMaxSum(ref int maxSum, List<int> subset)
 
-{
+    {
 
-// implementation…
+        // implementation…
 
-}
+    }
 
 The first argument is passed by reference so that the method can write the maximum sum and the second argument is a list of integers which make up the maximum sum.
