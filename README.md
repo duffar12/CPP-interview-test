@@ -44,7 +44,7 @@ The first argument is the input string and the second is a list of characters co
 ## Question 4
 * Assume you have a list of pairs of start and end dates. Write a method that will return the maximum coverage of the list. For example, assume list of pairs,
 
-    {(01/01/2016, 03/01/2016), (02/01/2016, 06/01/2016), (07/01/2016, 10/01/2016), (08/01/2016, 16/01/2016)},
+      {(01/01/2016, 03/01/2016), (02/01/2016, 06/01/2016), (07/01/2016, 10/01/2016), (08/01/2016, 16/01/2016)},
 
 then the method should return the following intervals, {(01/01/2016, 06/01/2016), (07/01/2016, 16/01/2016)}.
 
@@ -53,9 +53,9 @@ then the method should return the following intervals, {(01/01/2016, 06/01/2016)
 ## Question 5
 * Suppose you are given an array of integers. Write a method that maximizes the sum of a subset such that if you include the number in the sum, you may not use the adjacent numbers (the numbers immediately to the left or right of that number) to count in the sum. For example:
 
-    int A [ ] = {1, - 1, 3, 8 ,4 } the max sum is 1+ 8 = 9;
+       int A [ ] = {1, - 1, 3, 8 ,4 } the max sum is 1+ 8 = 9;
 
-    int A [ ] = { 1,2,3,4, 5} the max sum is 1 + 3 + 5 = 9;
+       int A [ ] = { 1,2,3,4, 5} the max sum is 1 + 3 + 5 = 9;
 
 The method should return both the subset and the max sum. You can assume the following method signature:
 
